@@ -6,7 +6,7 @@ include_once 'db.class.php';
 define('db_host','localhost');
 
 // Имя БД
-define('db_name','SYAP_YADP');
+define('db_name','BD_SYAP_YADP');
 
 // Пользователь БД
 define('db_user','admin');
