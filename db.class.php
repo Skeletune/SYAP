@@ -5,7 +5,7 @@ class DB_class
 	function __construct($db_host,$db_name,$db_user,$db_pass)
 	{
 		if (!$this->db) {
-			$con = @ new mysqli($db_host, $db_user, $db_pass, $db_name);
+			$con = @ new mysql($db_host, $db_user, $db_pass, $db_name);
 			if (!$con->connect_error) {
 				$this->db = true;
 				$con->set_charset("utf8");
