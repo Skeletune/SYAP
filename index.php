@@ -3,17 +3,17 @@
 include_once 'db.class.php';
 
 // хост БД
-define('db_host','localhost');
+//define('db_host','localhost');
 
 // Имя БД
-define('db_name','syap_yadp');
+//define('db_name','syap_yadp');
 
 // Пользователь БД
-define('db_user','admin');
+//define('db_user','admin');
 
 // Пароль БД
-define('db_pass','admin_password');
+//define('db_pass','admin_password');
 
 // Обявление класса для подключения к бд
-$db = new DB_class(db_host,db_name,db_user,db_pass);
+//$db = new DB_class(db_host,db_name,db_user,db_pass);
 ?>
